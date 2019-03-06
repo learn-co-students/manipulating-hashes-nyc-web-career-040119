@@ -17,7 +17,6 @@ def first_challenge
   }
 
   #your code here
-  contact_info = {}
   contacts.each do | name, info|
     # puts name
     # puts
