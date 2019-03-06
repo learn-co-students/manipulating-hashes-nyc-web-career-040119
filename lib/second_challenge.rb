@@ -7,7 +7,13 @@ def second_challenge
   }
 
   #code your solution here!
+  food_items = []
+  groceries.values.each do |foods|
+  	foods.each do |food|
+  		food_items << food
+  	end
+  end
 
-  
 
+food_items
 end
