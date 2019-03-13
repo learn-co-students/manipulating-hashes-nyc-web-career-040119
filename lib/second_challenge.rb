@@ -6,8 +6,11 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
-
+  grocery_list = []
   
+  groceries.each do |type, items|
+    grocery_list.concat(items)
+  end
 
+  grocery_list
 end
