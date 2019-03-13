@@ -8,8 +8,8 @@ def second_challenge
 
   grocery_list = []
   
-  for type in groceries.values
-    grocery_list.concat(type)
+  for list in groceries.values
+    grocery_list.concat(list)
   end
   
   # groceries.each do |type, items|
